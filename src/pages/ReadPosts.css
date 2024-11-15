@@ -1,0 +1,14 @@
+/* .ReadPosts {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+} */
+
+.ReadPosts {
+    display: flex;
+    flex-direction: column; /* Stack items in a single column */
+    gap: 30px;
+    align-items: center; /* Center-align each card within the container */
+    width: 100%;
+  }

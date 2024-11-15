@@ -1,0 +1,50 @@
+.Card {
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.title {
+    color:#4c6173;
+    padding-left: 1px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.description {
+    color:#4C6173;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.votes {
+    color:#4C6173;
+}
+
+.moreButton {
+    width: 30px;
+    float:right;
+
+}
+.moreButton:hover {
+    cursor: pointer;
+}

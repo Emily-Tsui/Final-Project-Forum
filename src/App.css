@@ -1,0 +1,75 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  justify-content: center;
+  background-color: white;
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  width: 100%;
+  color:black;
+  text-align: center;
+}
+
+h1 {
+  color: #4C6173;
+}
+
+#searchBar {
+    margin-top: 10px;
+    width: 50%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #A65C32;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.headerBtn {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  background-color: #A66933;
+  color: #F2F2F2;
+
+}
+
+/* .ReadPosts {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+} */
+ 
+.ReadPosts {
+  display: flex;
+  flex-direction: column; /* Stack items in a single column */
+  gap: 30px;
+  align-items: center; /* Center-align each card within the container */
+  width: 100%;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a;
+  color:white; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #A65C32;
+}
